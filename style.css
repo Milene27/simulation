@@ -36,3 +36,11 @@
     background: #4CAF50;
     cursor: pointer;
   }
+
+  html{background-color:grey;}
+  .info {
+    border:3px double black;
+    background-color: white;
+    
+    }
+h2{ color:rgba(255, 68, 0, 0.644)}
