@@ -4,15 +4,14 @@ var output = document.getElementById("demo");
 output.innerHTML = slider.value;
 var mois = 12;
 var montant = 0;
+
+
+
 slider.oninput = function () {
   output.innerHTML = this.value;
 
-
-
-  slider.oninput = function () {
-    output.innerHTML = this.value;
-
-
+var mois =12;
+var montant=0;
 
   if (this.value < 1500) {/*"this.value me permet de récupérer le montant de la valeur de mon slider*/
   var taeg = 9.90;
