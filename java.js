@@ -19,7 +19,7 @@ slider.oninput = function () {
     montant = (parseFloat(this.value) + parseFloat(calcul));
     console.log(montant);
     var result = (montant / mois);
-    console.log("lla mensualité" + " " + result);
+    console.log("la mensualité" + " " + result);
 
   }
 
@@ -30,7 +30,7 @@ slider.oninput = function () {
     montant = (parseFloat(this.value) + parseFloat(calcul));
     console.log(montant);
     var result = (montant / mois);
-    console.log("lla mensualité" + " " + result);
+    console.log("la mensualité" + " " + result);
   }
 
   if (this.value >= 3000 && this.value < 5000) {
@@ -40,12 +40,11 @@ slider.oninput = function () {
       montant = (parseFloat(this.value) + parseFloat(calcul));
       console.log(montant);
       var result = (montant / mois);
-      console.log("lla mensualité" + " " + result);
+      console.log("la mensualité" + " " + result);
     }
   }
 
-var result=(montant/mois);
-console.log("la mensualité"+" "+result);
 
 
-  }}
+
+  }
