@@ -8,14 +8,14 @@
 </head>
 
 <body>
-exercice text 
+
         
         <div class= "principale">
         <div class="slidecontainer">
                 <h2>MA SIMULATION</h2><br><br>
                 <p>J'indique le montant souhaité</p>
-          <input type="range" min="1000" max="5000" value="500" class="slider" id="myRange" >
-          <p>Value: <span id="demo" style="color:orange"></span></p>
+          <input type="range" min="1000" max="5000" step="100" value="500" class="slider" id="myRange" >
+          <p>Value: <span id="demo" style="color:black; background-color:orange;font-weight: bold"></span></p>
         </div>
 
 <div class="info"> 
@@ -34,4 +34,26 @@ exercice text
 
 </body>        
 
+
+<form	name="Saisie" method="post"
+					action="javascript:Calcul();">
+				<table border="4" cellpadding="3" cellspacing="0">
+					<tr>	<th>	Montant<br />
+									du prêt</th>
+							<th>	Durée en<br />
+									 années</th>
+							<th>	Taux<br />
+									Entiers . Décimales</th>
+							<th><input 	type="checkbox"
+										name="imprimer" /> Imprimer</th>
+					</tr>
+					<tr>	<th>	<input 	type="text" size='11' 	name="Montant" /> </th>
+							<th>	<input 	type="text" size='2'  	name="Duree" /> </th>
+							<th>	<input 	type="text" size='7'  	name="Taux" /> </th>
+							<th>	<input 	type="submit"  	     	name="Lancer"
+											value="cliquer ici pour&#13;&#10;Lancer le Calcul" /> </th>
+					</tr>
+			</table>
+		</form>
+		<div id="result"></div>
 </html>
