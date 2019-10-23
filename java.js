@@ -7,9 +7,8 @@ var montant=0;
 slider.oninput = function () {
   output.innerHTML = this.value;
 
-let montantDue;
 
-  if (this.value < 1500) {
+  if (this.value < 1500) {/*"this.value me permet de récupérer le montant de la valeur de mon slider*/
 var calcul=((this.value*9.90)/100); 
      
     console.log("le intéret brut "+" "+calcul);
