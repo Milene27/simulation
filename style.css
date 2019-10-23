@@ -13,7 +13,7 @@
     -webkit-appearance: none;
     width: 70%;
     height: 15px;
-    border-radius: 5px;
+    border-radius: 15px;
     background: #d3d3d3;
     outline: none;
     opacity: 0.7;
@@ -46,9 +46,11 @@
   html{background-color:grey;}
   .info {
     display: inline-block;
-    border:3px double black;
+    border:3px solid black;
     background-color: white;
     width: 300px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
     
     }
 h2{ color:rgba(255, 68, 0, 0.644)}
@@ -65,11 +67,12 @@ h2{ color:rgba(255, 68, 0, 0.644)}
   }
 
   body{
-    background-color: gray;
+    
   }
 .principale{
+  margin-top: 200px;
   background-color: black;
   width: 60%;
-  margin-left: 100px;
+  margin-left: 200px;
 
 }
