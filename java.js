@@ -5,12 +5,11 @@ output.innerHTML = slider.value;
 
 slider.oninput = function () {
   output.innerHTML = this.value;
-<<<<<<< HEAD
 
 
   if (this.value < 1500) {
 
-    var denominateur = (1 - (1 + (9.9 / 12) ^ (-6)));
+    var denominateur = (1 - Math.pow(1 + (9.9 / 12),(-6)));
     var mensualite = (this.value * (9.9 / 12)) / denominateur;
     console.log(mensualite);
   }
@@ -31,7 +30,5 @@ slider.oninput = function () {
 }
 
 
-=======
-}
 
->>>>>>> ad8a341cc39d9d320b52913777c80607e41a0006
+
