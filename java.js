@@ -13,7 +13,7 @@ let montantDue;
 var calcul=((this.value*9.90)/100); 
      
     console.log("le intéret brut "+" "+calcul);
-   montant=(this.value+calcul);
+   montant=(parseFloat(this.value) + parseFloat(calcul));
     console.log(montant);
 var result=(montant/mois);
 console.log("lla mensualité"+" "+result);
