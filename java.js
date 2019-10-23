@@ -7,6 +7,7 @@ var montant=0;
 slider.oninput = function () {
   output.innerHTML = this.value;
 
+let montantDue;
 
   if (this.value < 1500) {
 var calcul=((this.value*9.90)/100); 
