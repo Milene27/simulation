@@ -50,7 +50,7 @@ var montant=0;
 
     }
 
-    document.getElementById("Mensualité").innerHTML = "Mensualité : " + result.toFixed(2);/* me permet de d'indiquer le montant de la valeur sur  ma  page HTML */
+    document.getElementById("Mensualité").innerHTML = "Mensualité : " + result.toFixed(2);
     document.getElementById("montant").innerHTML = "Montant : " + montant.toFixed(2);
     document.getElementById("TAEG").innerHTML = "TAEG : " + taeg;
 
