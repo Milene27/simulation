@@ -11,7 +11,7 @@ let montantDue;
   if (this.value < 1500) {
 
     var denominateur = (1 - Math.pow(1 + (9.9 / 12),(-6)));
-    var mensualite = (this.value * (9.9 / 12)) / denominateur;
+    var mensualite = (this.value * (9.9 / 12)) / denominateur ;
     console.log(mensualite);
   }
 
