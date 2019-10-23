@@ -5,6 +5,7 @@ output.innerHTML = slider.value;
 
 slider.oninput = function () {
   output.innerHTML = this.value;
+<<<<<<< HEAD
 
 
   if (this.value < 1500) {
@@ -30,3 +31,7 @@ slider.oninput = function () {
 }
 
 
+=======
+}
+
+>>>>>>> ad8a341cc39d9d320b52913777c80607e41a0006
