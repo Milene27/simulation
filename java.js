@@ -9,6 +9,10 @@ slider.oninput = function () {
 
   
 
+slider.oninput = function () {
+  output.innerHTML = this.value;
+
+
   if (this.value < 1500) {
     var calcul = ((this.value * 9.90) / 100);
     console.log("le intéret brut " + " " + calcul);
@@ -40,4 +44,8 @@ slider.oninput = function () {
     }
   }
 
+var result=(montant/mois);
+console.log("la mensualité"+" "+result);
 
+
+  }}
