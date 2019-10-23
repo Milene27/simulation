@@ -5,6 +5,7 @@
     padding-top: 50px;
     background-color : black;
     color:white;
+    display: inline-block;
   }
   
   .slider {
@@ -43,6 +44,7 @@
 
   html{background-color:grey;}
   .info {
+    display: inline-block;
     border:3px double black;
     background-color: white;
     
@@ -63,3 +65,7 @@ h2{ color:rgba(255, 68, 0, 0.644)}
   body{
     background-color: gray;
   }
+.principale{
+  background-color: black;
+
+}
