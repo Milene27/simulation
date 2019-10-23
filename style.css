@@ -1,15 +1,17 @@
 
 .slidecontainer {
-    width: 20%;
+    width: 500px;
     margin-left : 300px;
     padding-top: 50px;
     background-color : black;
     color:white;
+    display: inline-block;
+    
   }
   
   .slider {
     -webkit-appearance: none;
-    width: 100%;
+    width: 70%;
     height: 15px;
     border-radius: 5px;
     background: #d3d3d3;
@@ -43,8 +45,10 @@
 
   html{background-color:grey;}
   .info {
+    display: inline-block;
     border:3px double black;
     background-color: white;
+    width: 300px;
     
     }
 h2{ color:rgba(255, 68, 0, 0.644)}
@@ -63,3 +67,9 @@ h2{ color:rgba(255, 68, 0, 0.644)}
   body{
     background-color: gray;
   }
+.principale{
+  background-color: black;
+  width: 60%;
+  margin-left: 100px;
+
+}
