@@ -62,5 +62,5 @@ var montant=0;
       console.log("la mensualité" + " " + result);
     }
   }
-}
+
 
