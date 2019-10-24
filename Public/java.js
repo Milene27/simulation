@@ -17,19 +17,14 @@ slider.oninput = function () {
     var taeg = 9.90;
     var calcul = ((this.value * taeg) / 100);
 
-    console.log("le intéret brut " + " " + calcul);
     montant = (parseFloat(this.value) + parseFloat(calcul));
     if (this.value < 1500) {
       var calcul = ((this.value * taeg) / 100);
-      console.log("le intéret brut " + " " + calcul);
       montant = (parseFloat(this.value) + parseFloat(calcul));
-      console.log(montant);
       var result = (montant / mois);
-      console.log("la mensualité" + " " + result);
 
     }
     else if (this.value >= 1500 && this.value < 3000) {
-      console.log("coucou");
       var taeg = 6;
 
       var calcul = ((this.value * taeg) / 100);
